@@ -112,3 +112,114 @@ header.masthead .masthead-content .masthead-subheading {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer {
+  padding-bottom: 60px;
+  position: relative;
+  background-color: #343a40;
+  border-top: 1px solid#eee;
+}
+
+.footer-widget ul li {
+  padding: 5px 0px;
+  color: white;
+}
+
+.footer-widget a {
+  color: #2670e0;
+}
+
+.footer-widget p {
+  margin-bottom: 5px;
+}
+
+.footer-widget h4 {
+  margin-bottom: 20px;
+}
+
+.footer-widget h4 span {
+  color: #1357c9;
+  display: block;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.footer-blog li img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-blog li h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.footer-blog li a.read-more {
+  font-size: 13px;
+}
+
+.footer-blog li {
+  margin-bottom: 15px;
+}
+
+.footer-copy {
+  letter-spacing: 1px;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid#494949;
+  color: white;
+}
+
+.footer-text h6 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-text, .footer-widget h4 {
+  color: white;
+=
+
+.footer-text p span {
+  color: white;
+}
+
+.footer-text p.mail {
+  color: #1357c9;
+}
+
+.bg-main {
+  background: #F4F8FB;
+}
+
+.footer-widget a {
+  color: #999;
+}
+
+a:hover {
+  color: #1357c9;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #000;
+}
