@@ -2,6 +2,6 @@
 - added CSS styling
 - logo update
 
-**update 0.2 include*:**
+**update 0.2 include:**
 - styling update
 - added important links
