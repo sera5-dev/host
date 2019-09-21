@@ -6,8 +6,68 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800 !important;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 section{
   padding: 5em;
+}
+
+.pricing {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.pricing-del {
+  font-size: 20px;
+  font-weight: 800;
+  color: #999;
+}
+
+.card-pricing {
+  padding: 3em;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 680;
+  word-wrap: break-word;
+  background-color: #eee;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 00);
+  border-radius: 20px;
+  height: padding;
+}
+
+.card {
+  padding: 3em;
+  border-color: #537fcc00;
+  border-radius: 20px;
+}
+
+.color-main {
+  color: #2a5fa7;
+}
+
+.card-body {
+  border-color: #00000000;
+}
+
+.card-price {
+  border-color: #537fcc00;
+  border-radius: 20px;
+  background-color: #00000000;
+}
+
+.packet-list {
+  padding: 0.5em;
+}
+
+.card-pricing:active, .card-pricing:focus, .card-pricing:hover {
+  background-color: #dae0e7;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .btn-xl {
@@ -16,6 +76,10 @@ section{
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+}
+
+.btn-circled {
+  border-radius: 20px;
 }
 
 .bg-black {
@@ -79,9 +143,38 @@ header.masthead .masthead-content .masthead-subheading {
   }
 }
 
-.bg-primary {
-  background-color: #2a5fa7 !important;
+.btn-price {
+  padding: 0.3em;
+  background-color: #2a5fa700;
 }
+
+.coll {
+  padding: auto;
+  margin: auto;
+}
+
+.btn-price:active, .btn-price:focus, .btn-price:hover {
+  background-color: #5d90cf00 !important;
+  border-color: #5d90cf00 !important;
+}
+
+.btn-price:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 00);
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 00);
+}
+
+.text-price {
+  color:black;
+  font-weight: 600;
+  }
+  
+  .text-price:active, .text-price:focus, .text-price:hover {
+    color: #2a5fa7;
+  }
+  
+  .text-price:focus {
+    color: #2a5fa7;
+  }
 
 .btn-primary {
   background-color: #2a5fa7;
@@ -113,8 +206,7 @@ header.masthead .masthead-content .masthead-subheading {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
-ul,
-li {
+ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -188,7 +280,7 @@ li {
 
 .footer-text, .footer-widget h4 {
   color: white;
-=
+}
 
 .footer-text p span {
   color: white;
@@ -222,4 +314,12 @@ a {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   color: #000;
+}
+
+.section-padding {
+  padding: 90px 0px;
+}
+
+.bg-main {
+  background-color: rgb(231, 235, 238);
 }
