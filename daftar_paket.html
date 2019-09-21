@@ -1,75 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Daftar Paket</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sera5.ID - Hosting</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Paket Kere Hore</h1>
-    
-    <h4>Harga</h4>
-    
-    <ul>
-        <li>1 Tahun : 30000</li>
-        <li>2 Tahun : 55000</li>
-        <li>3 Tahun : 40000</li>
-    </ul>
-    
-    <h4>Fitur</h4>
-    
-    <ul>
-        <li>Zero Configuration</li>
-    </ul>
 
-    <h1>Paket Pansos</h1>
-    
-    <h4>Harga</h4>
-    
-    <ul>
-        <li>1 Tahun : 58000</li>
-        <li>2 Tahun : 111000</li>
-        <li>3 Tahun : 156000</li>
-    </ul>
-    
-    <h4>Fitur</h4>
-    
-    <ul>
-        <li>Unlimited Disk Space</li>
-        <li>Unlimited Bandwidth</li>
-        <li>Unlimited POP3 Email</li>
-        <li>Unlimited Database</li>
-        <li>10 Addon Domain</li>
-        <li>Instant Backup</li>
-        <li>Domain Gratis</li>
-        <li>Unlimited SSL Gratis Selamanya</li>
-    </ul>
+    <div class="text-left bg-dark">
+      <a class="navbar-brand" href="#"><img src="img/logo-ligt.png" width="150px"></a>
+      <!-- Nav Item - User Information -->
+          <a class="navbar-brand dropdown-toggle to-right" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2 d-none d-lg-inline text-white small">Account</span>
+            <img class="img-profile rounded-circle" src="img/user-default.png" width="35px">
+          </a>
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+              Profile
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+              Settings
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+              Activity Log
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Logout
+            </a>
+          </div>
+    </div>
 
-    <h1>Paket Sultan</h1>
-    
-    <h4>Harga</h4>
-    
-    <ul>
-        <li>1 Tahun : 68000</li>
-        <li>2 Tahun : 130000</li>
-        <li>3 Tahun : 103000</li>
-    </ul>
-    
-    <h4>Fitur</h4>
-    
-    <ul>
-        <li>Unlimited Disk Space</li>
-        <li>Unlimited Bandwidth</li>
-        <li>Unlimited POP3 Email</li>
-        <li>Unlimited Database</li>
-        <li>Unlimited Addon Domain</li>
-        <li>Instant Backup</li>
-        <li>Domain Gratis</li>
-        <li>Unlimited SSL Gratis Selamanya</li>
-        <li>SpamAssasin Mail Protection</li>
-    </ul>
+    <section class="bg-main">
+        <div class="container bg-price">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 m-auto">
+                    <div class="section-heading">
+                        <h2 class="text-center display-4">Hosting pricing</h4>
+                        <h4 class="text-center">Say goodbye to overpriced hosting services</h4>
+                        <br>
+                    </div>
+                </div>
+            </div>
 
-    <input type="button" value="order now">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card-pricing">
+                        <div class="price-header">
+                            <i class="flaticon-start"></i>
+                            <h5 class="text-center">Paket</h5>
+                            <h1 class="price text-center color-primary">Kere Hore</h1><br>
+                            <div class="accordion" id="accordionExample">
+                                <div class="row">
+                                    <div class="coll">
+                                        <h2>
+                                            <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">A Year
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div class="coll">
+                                        <h2>
+                                            <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2 Years
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div class="coll">
+                                        <h2>
+                                            <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3 Years
+                                            </button>
+                                        </h2>
+                                    </div>
+                                </div>
+
+                                    <div class="card-price">
+                                        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <p class="pricing price text-center"><small>Rp </small>30.000,-</p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="card-price">
+                                        <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <p class="pricing-del price text-center"><small>Rp </small><del>60.000,-</del><small> /2 Tahun</small></p>
+                                                <p class="pricing price text-center"><small>Rp </small>55.000,-<small> /2 Tahun</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-price">
+                                        <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <p class="pricing-del price text-center"><small>Rp </small><del>90.000,-</del><small> /3 Tahun</small></p>
+                                                <p class="pricing price text-center"><small>Rp </small>40.000,-<small> /3 Tahun</small></p>
+                                            </div>
+                                        </div>
+                                    </div>            
+                                </div><br>
+                        </div>
+                        <div class="text-center" margin="1em";>
+                            <h5>Features</h5><hr>
+                            <ul class="packet-list">
+                                <li class="packet-list">Zero configuration</li>
+                            </ul><br>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-circled">select plan</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card-pricing">
+                        <div class="price-header">
+                            <i class="flaticon-start"></i>
+                            <h5 class="text-center">Paket</h5>
+                            <h1 class="price text-center color-primary">Pansos</h1><br>
+                            <div class="accordion" id="accordionExample">
+                                    <div class="row">
+                                        <div class="coll">
+                                            <h2>
+                                                <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">A Year
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div class="coll">
+                                            <h2>
+                                                <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">2 Years
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div class="coll">
+                                            <h2>
+                                                <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">3 Years
+                                                </button>
+                                            </h2>
+                                        </div>
+                                    </div>
+    
+                                        <div class="card-price">
+                                            <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <p class="pricing price text-center"><small>Rp </small>58.000,-</p>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="card-price">
+                                            <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <p class="pricing-del price text-center"><small>Rp </small><del>116.000,-</del><small> /2 Tahun</small></p>
+                                                    <p class="pricing price text-center"><small>Rp </small>111.000,-<small> /2 Tahun</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-price">
+                                            <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <p class="pricing-del price text-center"><small>Rp </small><del>174.000,-</del><small> /3 Tahun</small></p>
+                                                    <p class="pricing price text-center"><small>Rp </small>156.000,-<small> /3 Tahun</small></p>
+                                                </div>
+                                            </div>
+                                        </div>            
+                                    </div><br>
+
+                            </div>
+
+                            <div class="text-center">
+                                <h5>Features</h5><hr>
+                                <ul>
+                                    <li class="packet-list">Unlimited Disk Space</li>
+                                    <li class="packet-list">Unlimited Bandwidth</li>
+                                    <li class="packet-list">Unlimited POP3 Email</li>
+                                    <li class="packet-list">Unlimited Database</li>
+                                    <li class="packet-list">10 Addon Domain</li>
+                                    <li class="packet-list">Instant Backup</li>
+                                    <li class="packet-list">Free Domain</li>
+                                    <li class="packet-list">Free Lifetime Unlimited SSL</li>
+                                </ul><br>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-circled">select plan</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                            <div class="card-pricing">
+                                <div class="price-header">
+                                    <i class="flaticon-start"></i>
+                                    <h5 class="text-center">Paket</h5>
+                                    <h1 class="price text-center color-primary">Sultan</h1><br><div class="accordion" id="accordionExample">
+                                            <div class="row">
+                                                <div class="coll">
+                                                    <h2>
+                                                        <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">A Year
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div class="coll">
+                                                    <h2>
+                                                        <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">2 Years
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div class="coll">
+                                                    <h2>
+                                                        <button class="btn btn-price text-price" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">3 Years
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                            </div>
+            
+                                                <div class="card-price">
+                                                    <div id="collapseSeven" class="collapse hide" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p class="pricing price text-center"><small>Rp </small>68.000,-</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="card-price">
+                                                    <div id="collapseEight" class="collapse hide" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p class="pricing-del price text-center"><small>Rp </small><del>136.000,-</del><small> /2 Tahun</small></p>
+                                                            <p class="pricing price text-center"><small>Rp </small>130.000,-<small> /2 Tahun</small></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="card-price">
+                                                    <div id="collapseNine" class="collapse hide" aria-labelledby="headingNine" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p class="pricing-del price text-center"><small>Rp </small><del>204.000,-</del><small> /3 Tahun</small></p>
+                                                            <p class="pricing price text-center"><small>Rp </small>103.000,-<small> /3 Tahun</small></p>
+                                                        </div>
+                                                    </div>
+                                                </div>            
+                                            </div><br>
+                                </div>
+                                <div class="packet-list text-center">
+                                    <h5>Features</h5><hr>
+                                    <ul>
+                                            <li class="packet-list">Unlimited Disk Space</li>
+                                            <li class="packet-list">Unlimited Bandwidth</li>
+                                            <li class="packet-list">Unlimited POP3 Email</li>
+                                            <li class="packet-list">Unlimited Database</li>
+                                            <li class="packet-list">Unlimited Addon Domain</li>
+                                            <li class="packet-list">Instant Backup</li>
+                                            <li class="packet-list">Free Domain</li>
+                                            <li class="packet-list">Free Lifetime Unlimited SSL</li>
+                                            <li class="packet-list">SpamAssasin Mail Protection</li>
+                                    </ul><br>
+                                </div>
+                                <a href="#" class="btn btn-primary btn-circled">select plan</a>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+  <section id="footer" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-4 col-md-4">
+                <div class="footer-widget footer-link">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Application Developing</a></li>
+                        <li><a href="#">Web Developing</a></li>
+                        <li><a href="#">Hosting service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-6 col-md-6">
+                <div class="footer-widget footer-text">
+                    <h4>Contacts</h4>
+                    <p class="mail"><span>Mail : </span><a href="mailto:admin@sera5.id"> admin@sera5.id</a></p>
+                    <p><span>Phone : </span><a href="tel:+6288218039696">+6288218039696</a> </p>
+                    <p><span>Location : </span> Gang Kujang No. 115D, Cibiru, Bandung</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer-copy">
+                    © 2019 SERA5 Corp. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
