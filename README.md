@@ -9,4 +9,9 @@
 **update 0.3 include:**
 - styling update
 - index redesign
-- added daftar paket
+- added daftar_paket
+
+**update 0.4 include:**
+- styling update
+- navbar redesign
+- daftar_paket redesign
